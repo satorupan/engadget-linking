@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SVProgressHUD.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,25 @@
 @implementation AppDelegate
 
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // setup appearances
+    NSString *fontName = @"AvenirNext-Medium";
+    NSDictionary *titleTextAttributes;
+    titleTextAttributes = @{
+                            NSFontAttributeName: [UIFont fontWithName:fontName size:20.],
+                            };
+    [[UINavigationBar appearance] setTitleTextAttributes:titleTextAttributes];
+    
+    titleTextAttributes = @{
+                            NSFontAttributeName: [UIFont fontWithName:fontName size:16.],
+                            };
+    [[UIBarButtonItem appearance] setTitleTextAttributes:titleTextAttributes forState:UIControlStateNormal];
+    
+    
+    [SVProgressHUD setFont:[UIFont fontWithName:fontName size:14.]];
+    
     return YES;
 }
 
