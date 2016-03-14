@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AE7045611C97146700CC0A34"
+               BlueprintIdentifier = "AE01BCD91C971E6B00F8F38C"
                BuildableName = "linkingSampler.app"
                BlueprintName = "linkingSampler"
                ReferencedContainer = "container:linkingSampler.xcodeproj">
@@ -28,11 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE01BCF21C971E6B00F8F38C"
+               BuildableName = "linkingSamplerTests.xctest"
+               BlueprintName = "linkingSamplerTests"
+               ReferencedContainer = "container:linkingSampler.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE01BCFD1C971E6B00F8F38C"
+               BuildableName = "linkingSamplerUITests.xctest"
+               BlueprintName = "linkingSamplerUITests"
+               ReferencedContainer = "container:linkingSampler.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE7045611C97146700CC0A34"
+            BlueprintIdentifier = "AE01BCD91C971E6B00F8F38C"
             BuildableName = "linkingSampler.app"
             BlueprintName = "linkingSampler"
             ReferencedContainer = "container:linkingSampler.xcodeproj">
@@ -55,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE7045611C97146700CC0A34"
+            BlueprintIdentifier = "AE01BCD91C971E6B00F8F38C"
             BuildableName = "linkingSampler.app"
             BlueprintName = "linkingSampler"
             ReferencedContainer = "container:linkingSampler.xcodeproj">
@@ -74,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AE7045611C97146700CC0A34"
+            BlueprintIdentifier = "AE01BCD91C971E6B00F8F38C"
             BuildableName = "linkingSampler.app"
             BlueprintName = "linkingSampler"
             ReferencedContainer = "container:linkingSampler.xcodeproj">
