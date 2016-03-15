@@ -23,6 +23,11 @@
 		AEF115F51C973F7A00E94DD0 /* BrowseCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEF115F31C973F7A00E94DD0 /* BrowseCodeViewController.xib */; };
 		AEF115FC1C9756EF00E94DD0 /* LSTomoruViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF115FB1C9756EF00E94DD0 /* LSTomoruViewController.m */; };
 		AEF115FE1C97595400E94DD0 /* LinkingLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF115FD1C97595400E94DD0 /* LinkingLibrary.framework */; };
+		AEF116031C97C44200E94DD0 /* AP_3AxisGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF116001C97C44200E94DD0 /* AP_3AxisGraphic.m */; };
+		AEF116041C97C44200E94DD0 /* AP_3AxisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF116021C97C44200E94DD0 /* AP_3AxisViewController.m */; };
+		AEF116071C97C7A800E94DD0 /* Ap_6AxisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF116061C97C7A800E94DD0 /* Ap_6AxisViewController.m */; };
+		AEF1160C1C97CA4200E94DD0 /* AP_THPGraphic.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF116091C97CA4200E94DD0 /* AP_THPGraphic.m */; };
+		AEF1160D1C97CA4200E94DD0 /* AP_THPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1160B1C97CA4200E94DD0 /* AP_THPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +77,16 @@
 		AEF115FA1C9756EF00E94DD0 /* LSTomoruViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTomoruViewController.h; path = "objective-C/LSTomoruViewController.h"; sourceTree = "<group>"; };
 		AEF115FB1C9756EF00E94DD0 /* LSTomoruViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTomoruViewController.m; path = "objective-C/LSTomoruViewController.m"; sourceTree = "<group>"; };
 		AEF115FD1C97595400E94DD0 /* LinkingLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LinkingLibrary.framework; sourceTree = SOURCE_ROOT; };
+		AEF115FF1C97C44200E94DD0 /* AP_3AxisGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AP_3AxisGraphic.h; path = "objective-C/AP_3AxisGraphic.h"; sourceTree = "<group>"; };
+		AEF116001C97C44200E94DD0 /* AP_3AxisGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AP_3AxisGraphic.m; path = "objective-C/AP_3AxisGraphic.m"; sourceTree = "<group>"; };
+		AEF116011C97C44200E94DD0 /* AP_3AxisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AP_3AxisViewController.h; path = "objective-C/AP_3AxisViewController.h"; sourceTree = "<group>"; };
+		AEF116021C97C44200E94DD0 /* AP_3AxisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AP_3AxisViewController.m; path = "objective-C/AP_3AxisViewController.m"; sourceTree = "<group>"; };
+		AEF116051C97C7A800E94DD0 /* Ap_6AxisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ap_6AxisViewController.h; path = "objective-C/Ap_6AxisViewController.h"; sourceTree = "<group>"; };
+		AEF116061C97C7A800E94DD0 /* Ap_6AxisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ap_6AxisViewController.m; path = "objective-C/Ap_6AxisViewController.m"; sourceTree = "<group>"; };
+		AEF116081C97CA4200E94DD0 /* AP_THPGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AP_THPGraphic.h; path = "objective-C/AP_THPGraphic.h"; sourceTree = "<group>"; };
+		AEF116091C97CA4200E94DD0 /* AP_THPGraphic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AP_THPGraphic.m; path = "objective-C/AP_THPGraphic.m"; sourceTree = "<group>"; };
+		AEF1160A1C97CA4200E94DD0 /* AP_THPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AP_THPViewController.h; path = "objective-C/AP_THPViewController.h"; sourceTree = "<group>"; };
+		AEF1160B1C97CA4200E94DD0 /* AP_THPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AP_THPViewController.m; path = "objective-C/AP_THPViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +198,16 @@
 		AEF115E71C97356C00E94DD0 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				AEF115FF1C97C44200E94DD0 /* AP_3AxisGraphic.h */,
+				AEF116001C97C44200E94DD0 /* AP_3AxisGraphic.m */,
+				AEF116011C97C44200E94DD0 /* AP_3AxisViewController.h */,
+				AEF116021C97C44200E94DD0 /* AP_3AxisViewController.m */,
+				AEF116051C97C7A800E94DD0 /* Ap_6AxisViewController.h */,
+				AEF116061C97C7A800E94DD0 /* Ap_6AxisViewController.m */,
+				AEF116081C97CA4200E94DD0 /* AP_THPGraphic.h */,
+				AEF116091C97CA4200E94DD0 /* AP_THPGraphic.m */,
+				AEF1160A1C97CA4200E94DD0 /* AP_THPViewController.h */,
+				AEF1160B1C97CA4200E94DD0 /* AP_THPViewController.m */,
 				AE01BCE31C971E6B00F8F38C /* LSWebViewController.h */,
 				AE01BCE41C971E6B00F8F38C /* LSWebViewController.m */,
 				AEF115FA1C9756EF00E94DD0 /* LSTomoruViewController.h */,
@@ -348,8 +373,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE01BCE51C971E6B00F8F38C /* LSWebViewController.m in Sources */,
+				AEF116031C97C44200E94DD0 /* AP_3AxisGraphic.m in Sources */,
+				AEF116071C97C7A800E94DD0 /* Ap_6AxisViewController.m in Sources */,
 				AEF115F41C973F7A00E94DD0 /* BrowseCodeViewController.m in Sources */,
 				AE01BD161C9723F400F8F38C /* SVProgressHUD.m in Sources */,
+				AEF116041C97C44200E94DD0 /* AP_3AxisViewController.m in Sources */,
+				AEF1160C1C97CA4200E94DD0 /* AP_THPGraphic.m in Sources */,
+				AEF1160D1C97CA4200E94DD0 /* AP_THPViewController.m in Sources */,
 				AE01BCE21C971E6B00F8F38C /* AppDelegate.m in Sources */,
 				AEF115EB1C9735E000E94DD0 /* LSSWebViewController.swift in Sources */,
 				AE01BCDF1C971E6B00F8F38C /* main.m in Sources */,
